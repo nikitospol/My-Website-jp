@@ -202,8 +202,13 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-#header .language {
+#header .languagejp {
 	background: url(../img/gbunitedkingdomflag_111699.svg) no-repeat center;
+	background-size: contain;
+	transform: scale(.6);
+}
+#header .languageen {
+	background: url(../img/jpjapanflag_111832.svg) no-repeat center;
 	background-size: contain;
 	transform: scale(.6);
 }
