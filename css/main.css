@@ -361,17 +361,20 @@ p {
 #projects .cta1 {
 	display: inline-block;
 	padding: 10px;
+	padding-right: 59px;
 	color: MintCream;
 	background-color: transparent;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
-	transition: 0.3s ease;
+	transition: 0.3s all;
 	transition-property: background-color, color;
+	background: url(../img/Shape.svg) no-repeat 95% center;
 }
 #projects .cta1:hover {
 	color: orange;
+	background: url(../img/arrow-after.svg) no-repeat right center;
 }
 /* End Projects section */
 
