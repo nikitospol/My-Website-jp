@@ -371,10 +371,13 @@ p {
 	transition: 0.3s all;
 	transition-property: background-color, color;
 	background: url(../img/Shape.svg) no-repeat 95% center;
+	animation: cta_puls .9s ease infinite;
 }
 #projects .cta1:hover {
 	color: orange;
 	background: url(../img/arrow-after.svg) no-repeat right center;
+	animation: none;
+	transform: scale(1.1);
 }
 /* End Projects section */
 
@@ -515,6 +518,20 @@ p {
 	100% {
 		opacity: 0;
 		transform: scale(1.4);
+	}
+}
+@keyframes cta_puls {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1.05);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
 	}
 }
 @keyframes text_reveal_box {
